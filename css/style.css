@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('subset-AvenirNext-Bold.eot');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir Next';
+    src: local('Avenir Next Bold'), local('AvenirNext-Bold'),
+        url('subset-AvenirNext-Bold.ttf') format('truetype'),
+        url('subset-AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+  font-family: 'Avenir Next' !important;
+  font-size: 18px !important;
+}
