@@ -79,3 +79,8 @@ function showPins(n) {
   puntos[pinIndex-1].className += " active";
   captionText.innerHTML = puntos[pinIndex-1].alt;
 }
+
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
+});
